@@ -17,7 +17,7 @@ username.send_keys('cypher01')
 
 password = driver.find_element_by_css_selector('input.credentials__input:nth-child(2)')
 password.clear()
-password.send_keys('satacash01')
+password.send_keys('')
 
 driver.find_element_by_css_selector('.btn').click()
 driver.implicitly_wait(10)
